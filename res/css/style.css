@@ -82,7 +82,7 @@ a {
   border: 2px solid black;
   display: block;
   max-width: 600px;
-  height: 650px;
+  height: 600px;
   margin: 0 auto;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   color: white;
