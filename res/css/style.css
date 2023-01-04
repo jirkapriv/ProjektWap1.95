@@ -1,0 +1,211 @@
+/* -- General decoration -- */
+/*
+      ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sipka {
+  max-width: 100px;
+}
+
+/*
+      ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄
+*/
+/* -- General decoration -- */
+
+/* -- Placeholder for stats -- */
+/*
+      ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅
+*/
+
+#topStats {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  font-weight: bolder;
+  border: solid black 2px;
+  background-color: whitesmoke;
+}
+
+#displayButt {
+  padding: 0.5em;
+  display: block;
+  margin: -8em auto;
+  transition: 0.05s;
+  cursor: pointer;
+  display: none;
+}
+
+#displayButt:hover {
+  transform: scale(1.1);
+}
+
+/*
+      ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄
+*/
+/* -- Placeholder for stats -- */
+
+/* -- Fight scene -- */
+/*
+      ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅
+*/
+
+#contain {
+  display: block;
+  max-width: 500px;
+  height: 200px;
+  margin: 6em auto;
+}
+
+#containDva {
+  display: block;
+  max-width: 500px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#containTri {
+  border: 2px solid black;
+  display: block;
+  max-width: 600px;
+  height: 650px;
+  margin: 0 auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  color: white;
+}
+
+.obr {
+  max-width: 100px;
+}
+
+#firefox {
+  position: relative;
+  left: 270px;
+  top: 80px;
+}
+
+#google {
+  position: relative;
+  top: 100px;
+  transition: linear 0.05s;
+}
+
+#attack {
+  display: block;
+  margin: 0.5em auto;
+  padding: 0.5em;
+  transition: 0.05s;
+  cursor: pointer;
+}
+
+#attack:hover {
+  transform: scale(1.1);
+}
+
+#info {
+  text-align: center;
+}
+
+#yourHP {
+  float: left;
+  padding: 0.5em;
+  margin-left: 2em;
+}
+
+#enemyHP {
+  float: right;
+  padding: 0.5em;
+  margin-right: 2em;
+}
+
+#revive {
+  display: block;
+  margin: 0.5em auto;
+  padding: 1em;
+  transition: linear 0.05s;
+  cursor: pointer;
+}
+
+#revive:hover {
+  transform: scale(1.1);
+}
+
+.attackObr {
+  max-width: 100px;
+}
+/*
+      ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄
+*/
+/* -- Fight scene -- */
+
+/* -- Button w animation on hover -- */
+/*
+      ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅
+*/
+
+#nabut {
+  position: absolute;
+  right: 10px;
+  top: 125px;
+  padding: 0.5em;
+}
+
+#Shop {
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(41, 38, 38);
+  padding: 5px 15px;
+  border: 3px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#Shop::before,
+#Shop::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: inherit;
+  transition: width 0.25s 0.15s, height 0.25s;
+}
+
+#Shop::before {
+  top: -15px;
+  left: -15px;
+  border-width: 3px 0 0 3px;
+}
+
+#Shop::after {
+  bottom: -15px;
+  right: -15px;
+  border-width: 0 3px 3px 0;
+}
+
+#Shop:hover::before,
+#Shop:hover::after {
+  width: calc(100% + 27px);
+  height: calc(100% + 27px);
+}
+/*
+      ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄
+*/
+/* -- Button w animation on hover -- */

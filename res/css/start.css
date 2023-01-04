@@ -1,0 +1,41 @@
+/* -- Game starting page -- */
+/*
+      ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅
+*/
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  user-select: none;
+}
+
+#startGame {
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.stredNadpis {
+  text-align: center;
+}
+
+#uvod {
+  margin-top: 35vh;
+}
+/*
+      ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄
+*/
+/* -- Game starting page -- */
+
+.thanksForPlaying {
+  text-align: center;
+}
+
+#obalN {
+  margin-top: 30vh;
+}

@@ -1,0 +1,94 @@
+/* -- General decoration -- */
+/*
+      ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+      ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄
+*/
+/* -- General decoration -- */
+
+/* -- Shop -- */
+/*
+      ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅
+*/
+
+#cennik {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  border: solid black 2px;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(194,180,129);
+}
+
+.menuNadpis {
+  text-align: center;
+  padding: 0.5em;
+  font-size: large;
+  font-weight: bolder;
+  margin-bottom: 1em;
+}
+
+.menuItem {
+  padding: 0.5em;
+  text-align: center;
+}
+
+#centerItems {
+  margin: 65vh auto 0;
+  width: 800px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+#centerItems > img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: linear 0.05s;
+}
+#centerItems > img:hover {
+  transform: scale(1.2);
+  aspect-ratio: 16/9;
+}
+
+#centerPopisky > .obalNaPopisky > div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#centerPopisky {
+  margin: 0 auto 0;
+  width: 800px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  color: white;
+}
+/*
+      ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄ ˄
+*/
+/* -- Shop -- */

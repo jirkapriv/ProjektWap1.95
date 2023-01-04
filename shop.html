@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="./res/css/style.css" />
+    <link rel="stylesheet" href="./res/css/shop.css" />
+
+    <style>
+      
+      
+body{
+
+background: url("./res/img/vill.png") no-repeat, #683900;
+background-size: cover;
+
+
+}
+#Shop {
+  
+  border: 3px solid white;
+ 
+}
+
+
+    </style>
+  </head>
+  <body>
+    <audio id="villSound" src="./res/img/villSound.mp3"></audio>
+    <audio id="potakSound" src="./res/img/potakSound.mp3"></audio>
+    <audio id="clickSound" src="./res/img/sounClick.mp3"></audio>
+
+    <div id="topStats">
+      <p id="PlayerDMG">DMG: 1</p>
+
+      <p id="PlayerCoins">Coins: 0</p>
+
+      <p id="PlayerMaxHP">Max HP: 20</p>
+    </div>
+
+    <div id="nabut">
+      <a onclick="history.back()">
+        <button id="Shop">BACK</button>
+      </a>
+    </div>
+
+    <div id="cennik">
+      <p class="menuNadpis">List of Items</p>
+
+      <p class="menuItem">
+        Buy a potion of strength just for..........200 coins
+      </p>
+      <p class="menuItem">Potion of luck in update 2.0</p>
+      <p class="menuItem">Poison in update 2.0</p>
+      <p class="menuItem">Upgrade your sword just for..........10 coins</p>
+      <p class="menuItem">Upgrade your armor just for..........10 coins</p>
+    </div>
+
+    <div id="centerItems">
+      <img id="ItemJednaTri" src="./res/img/pot0.png" alt="potak" />
+
+      <img id="ItemJednaCtyri" src="./res/img/pot2.png" alt="potak" />
+
+      <img id="ItemJednaPet" src="./res/img/pot.png" alt="potak" />
+
+      <img id="ItemJednaJedna" src="./res/img/mecJedna.png" alt="mec" />
+
+      <img id="ItemJednaDva" src="./res/img/armor.png" alt="armor" />
+    </div>
+
+    <div id="centerPopisky">
+      <div class="obalNaPopisky" id="obalNaPopiskyT">
+        <div id="PopisekItemTri">Potion</div>
+      </div>
+
+      <div class="obalNaPopisky" id="obalNaPopiskyC">
+        <div id="PopisekItemCtyri">Potion</div>
+      </div>
+
+      <div class="obalNaPopisky" id="obalNaPopiskyP">
+        <div id="PopisekItemPet">Potion</div>
+      </div>
+
+      <div class="obalNaPopisky" id="obalNaPopiskyJ">
+        <div id="PopisekItemJedna">+1 Damage</div>
+      </div>
+
+      <div class="obalNaPopisky" id="obalNaPopiskyD">
+        <div id="PopisekItemDva">+1 HP</div>
+      </div>
+    </div>
+
+    <script src="./res/js/sec.js"></script>
+  </body>
+</html>

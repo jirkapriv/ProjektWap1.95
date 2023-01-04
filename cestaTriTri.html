@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinalBoss</title>
+    <link rel="stylesheet" href="./res/css/style.css" />
+    <style>
+      body {
+        background-image: url("./res/img/cestaTriTri.png");
+      }
+    </style>
+  </head>
+  <body>
+    <audio id="swordSound" src="./res/img/Sword.mp3"></audio>
+    <audio id="damegedSound" src="./res/img/damaged.mp3"></audio>
+    <audio id="clickSound" src="./res/img/sounClick.mp3"></audio>
+    <audio id="potakSound" src="./res/img/potakSound.mp3"></audio>
+
+    <div id="topStats">
+      <p id="PlayerDMG">DMG: 1</p>
+
+      <p id="PlayerCoins">Coins: 0</p>
+
+      <p id="PlayerMaxHP">Max HP: 20</p>
+    </div>
+    <div id="nabut">
+      <a href="./shop.html">
+        <button id="Shop">SHOP</button>
+      </a>
+    </div>
+
+    <a href="./cestaTriDva.html">
+      <img src="./res/img/sipkaBack.png" alt="znacka" class="sipka" />
+    </a>
+
+    <div id="displaing">
+      <div id="containTri">
+        <div id="contain">
+          <img
+            src="./res/img/google.png"
+            alt="google"
+            class="obr"
+            id="google"
+          />
+
+          <img
+            src="./res/img/IntExpl.png"
+            alt="firefox"
+            class="obr"
+            id="firefox"
+          />
+        </div>
+
+        <img
+          id="attack"
+          class="attackObr"
+          src="./res/img/mecJedna.png"
+          alt="mec"
+        />
+
+        <div id="containDva">
+          <span id="yourHP">20</span> <span id="enemyHP">10000</span>
+
+          <p id="info"></p>
+        </div>
+        <a href="./winPage.html">
+          <button id="displayButt">CONTINUE</button>
+        </a>
+      </div>
+    </div>
+
+    <script src="./res/js/sixth.js"></script>
+  </body>
+</html>
